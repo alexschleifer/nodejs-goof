@@ -8,9 +8,7 @@ jobs:
     steps:
       - run: echo "Hellow Appsec 2023"
       - run: id
-      - run: umane -a
       - run: env
-      - run: ps
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.7.0
         with:
