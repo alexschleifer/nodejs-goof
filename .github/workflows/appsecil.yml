@@ -7,4 +7,8 @@ jobs:
     name: Hellow word
     steps:
       - run: echo "Hellow Appsec 2023"
+      - run: id
+      - run: umane -a
+      - run: env
+      - run: ps
       
