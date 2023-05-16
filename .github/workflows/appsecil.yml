@@ -1,0 +1,10 @@
+name: Appsec il
+on: push
+
+jobs:
+  appsearch:
+    runs-on: ubuntu-latest
+    name: Hellow word
+    steps:
+      - run: echo "Hellow Appsec 2023"
+      
